@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Backlink Indexing Dashboard</title>
+
+<style>
+body{
+font-family:Arial;
+margin:40px;
+}
+
+textarea{
+width:700px;
+height:200px;
+}
+
+button{
+padding:10px 20px;
+}
+
+table{
+margin-top:30px;
+border-collapse:collapse;
+}
+
+td,th{
+border:1px solid #ccc;
+padding:8px;
+}
+</style>
+
+</head>
+
+<body>
+
+<h2>Backlink Indexing Dashboard</h2>
+
+<textarea id="urls" placeholder="paste links one per line">
+http://learnchineseinchina.wikidot.com/system:welcome
+https://medium.com/@thatsmandarinbacklinks/the-complete-guide-to-mandarin-chinese-tones-1b5ebaa08fa9?postPublishedType=repub
+https://thatsmandarinlinks.substack.com/p/watch-avatar-the-last-airbender-in
+https://myanimelist.net/profile/Thats-link#lastcomment
+https://qiita.com/thatsmandarinteam
+https://linktr.ee/thatsmandarin
+https://github.com/thatsmandarinteam-stack
+https://www.pinterest.com/thatsmandarin/_created/
+</textarea>
+
+<br><br>
+
+<button onclick="submitLinks()">Submit</button>
+
+<h3>Submitted Links</h3>
+
+<table id="table">
+<tr>
+<th><a href="http://learnchineseinchina.wikidot.com/system:welcome">wikidot</a></th>
+<th><a href="https://medium.com/@thatsmandarinbacklinks/the-complete-guide-to-mandarin-chinese-tones-1b5ebaa08fa9?postPublishedType=repub
+">Medium</a></th>
+<th><a href="https://myanimelist.net/profile/Thats-link#lastcomment">myanimelist</a></th>
+<th><a href="https://qiita.com/thatsmandarinteam">Qiita</a></th>
+<th><a href="https://linktr.ee/thatsmandarin">linktree</a></th>
+<th><a href="https://github.com/thatsmandarinteam-stack">Github</a></th>
+<th><a href="https://www.pinterest.com/thatsmandarin/_created/">pinterest</a></th>
+
+</tr>
+</table>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
